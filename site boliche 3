@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <style>
+        /* Estilos gerais do corpo */
+        body {
+            font-family: Arial, sans-serif; /* Define a fonte para todo o corpo */
+            margin: 0; /* Remove a margem padrão do body */
+            padding: 0; /* Remove o padding padrão do body */
+            line-height: 1.6; /* Define a altura da linha para melhorar a legibilidade */
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIRExuNVHGRZLio9LwBO11dSAXs71i2QIztg&usqp=CAU'); /* Define a imagem de fundo */
+            background-size: cover; /* Faz a imagem cobrir toda a tela */
+            background-position: center; /* Centraliza a imagem de fundo */
+            background-attachment: fixed; /* Fixa a imagem de fundo durante o rolar da página */
+        }
+
+        /* Centraliza o texto do header e aplica um estilo */
+        header {
+            text-align: center; /* Centraliza o texto no header */
+            margin: 20px 0; /* Adiciona margem superior e inferior */
+        }
+
+        header h1 {
+            display: inline-block; /* Faz o título se comportar como um bloco em linha */
+            padding: 10px 20px; /* Adiciona padding interno */
+            border: 2px solid #000; /* Adiciona uma borda ao redor do título */
+            border-radius: 10px; /* Torna as bordas arredondadas */
+            background-color: #f0f0f0; /* Adiciona um fundo claro */
+        }
+
+        /* Centraliza as imagens lado a lado */
+        .imagem {
+            display: flex; /* Usa flexbox para alinhar as imagens lado a lado */
+            justify-content: center; /* Centraliza as imagens dentro do contêiner */
+            gap: 20px; /* Adiciona um espaço entre as imagens */
+            margin: 20px 0; /* Adiciona margem superior e inferior */
+        }
+
+        .imagem img {
+            max-width: 100%; /* Garante que a imagem não exceda a largura do contêiner */
+            height: auto; /* Mantém a proporção da imagem */
+            border: 2px solid #ddd; /* Adiciona uma borda leve */
+            border-radius: 8px; /* Torna as bordas arredondadas */
+            max-width: 300px; /* Limita a largura máxima de cada imagem */
+        }
+
+        /* Estilo da seção de conteúdo */
+        .conteudo {
+            background-color: rgba(224, 247, 250, 0.9); /* Adiciona um fundo azul claro com transparência */
+            padding: 20px; /* Adiciona padding interno */
+            border-radius: 8px; /* Torna as bordas arredondadas */
+            margin: 20px; /* Adiciona margem ao redor da seção */
+            text-align: center; /* Centraliza o texto na seção */
+        }
+
+        /* Estilo do footer */
+        footer {
+            text-align: center; /* Centraliza o texto no footer */
+            padding: 10px 0; /* Adiciona padding interno */
+            background-color: #f0f0f0; /* Adiciona um fundo claro */
+            margin-top: 20px; /* Adiciona margem superior */
+            border-top: 1px solid #ddd; /* Adiciona uma borda superior leve */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bolas de Boliche</h1>
+    </header>
+    <main>
+        <section class="imagem">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXMegLO4v0bsUPQWDlPICSvZ9oT9t-K9WfsA&s" alt="Imagem 1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYyG-MSz8wSnuZebiiUNcFW29nn_vPHWQ_sQ&s" alt="Imagem 2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFc56ANPZDZs_hpTA8bEwEi-Qsp-VwxbUXKQ&s" alt="Imagem 3">
+        </section>
+        <section class="conteudo">
+            <p>Belas Bolas de Boliche.</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
