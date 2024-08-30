@@ -11,6 +11,10 @@
             margin: 0; /* Remove a margem padrão do body */
             padding: 0; /* Remove o padding padrão do body */
             line-height: 1.6; /* Define a altura da linha para melhorar a legibilidade */
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIRExuNVHGRZLio9LwBO11dSAXs71i2QIztg&usqp=CAU'); /* Define a imagem de fundo */
+            background-size: cover; /* Faz a imagem cobrir toda a tela */
+            background-position: center; /* Centraliza a imagem de fundo */
+            background-attachment: fixed; /* Fixa a imagem de fundo durante o rolar da página */
         }
 
         /* Centraliza o texto do header e aplica um estilo */
@@ -27,9 +31,11 @@
             background-color: #f0f0f0; /* Adiciona um fundo claro */
         }
 
-        /* Centraliza a imagem e define o tamanho máximo */
+        /* Centraliza as imagens lado a lado */
         .imagem {
-            text-align: center; /* Centraliza o conteúdo da seção */
+            display: flex; /* Usa flexbox para alinhar as imagens lado a lado */
+            justify-content: center; /* Centraliza as imagens dentro do contêiner */
+            gap: 20px; /* Adiciona um espaço entre as imagens */
             margin: 20px 0; /* Adiciona margem superior e inferior */
         }
 
@@ -38,11 +44,12 @@
             height: auto; /* Mantém a proporção da imagem */
             border: 2px solid #ddd; /* Adiciona uma borda leve */
             border-radius: 8px; /* Torna as bordas arredondadas */
+            max-width: 300px; /* Limita a largura máxima de cada imagem */
         }
 
         /* Estilo da seção de conteúdo */
         .conteudo {
-            background-color: #e0f7fa; /* Adiciona um fundo azul claro */
+            background-color: rgba(224, 247, 250, 0.9); /* Adiciona um fundo azul claro com transparência */
             padding: 20px; /* Adiciona padding interno */
             border-radius: 8px; /* Torna as bordas arredondadas */
             margin: 20px; /* Adiciona margem ao redor da seção */
@@ -61,14 +68,16 @@
 </head>
 <body>
     <header>
-        <h1>Bola de Boliche</h1>
+        <h1>Bolas de Boliche</h1>
     </header>
     <main>
         <section class="imagem">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXMegLO4v0bsUPQWDlPICSvZ9oT9t-K9WfsA&s" alt="XD">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXMegLO4v0bsUPQWDlPICSvZ9oT9t-K9WfsA&s" alt="Imagem 1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYyG-MSz8wSnuZebiiUNcFW29nn_vPHWQ_sQ&s" alt="Imagem 2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFc56ANPZDZs_hpTA8bEwEi-Qsp-VwxbUXKQ&s" alt="Imagem 3">
         </section>
         <section class="conteudo">
-            <p>Uma ótima Bola de Boliche.</p>
+            <p>Belas Bolas de Boliche.</p>
         </section>
     </main>
     <footer>
