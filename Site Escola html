@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conceitos de HTML</title>
+    <style>
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f0e6;
+            color: #4d3b30;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #a67c52;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #fff;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            margin: 20px;
+        }
+
+        section {
+            margin: 20px 0;
+        }
+
+        footer {
+            background-color: #a67c52;
+            color: #fff;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        h2 {
+            color: #4d3b30;
+            border-bottom: 2px solid #a67c52;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        p, ul, li, pre {
+            text-align: left;
+            max-width: 800px;
+            margin: 10px auto;
+        }
+
+        pre {
+            background-color: #f0e8d9;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Entendendo HTML</h1>
+    </header>
+
+    <main>
+        <!-- Explicação sobre o HTML -->
+        <section id="html">
+            <h2>O que é HTML?</h2>
+            <p>HTML (HyperText Markup Language) é a linguagem usada para estruturar o conteúdo de uma página da web. Ele permite que você crie elementos como títulos, parágrafos, links, listas, e muito mais, que serão exibidos no navegador.</p>
+        </section>
+
+        <!-- Estrutura básica do HTML -->
+        <section id="estrutura">
+            <h2>Estrutura Básica de um Documento HTML</h2>
+            <p>Todo documento HTML segue uma estrutura padrão que inclui as seguintes partes principais:</p>
+            <ul>
+                <li><strong><code>&lt;!DOCTYPE html&gt;</code></strong>: Declara o tipo do documento e informa ao navegador que se trata de uma página HTML5.</li>
+                <li><strong><code>&lt;html&gt;</code></strong>: O elemento raiz que contém todo o conteúdo da página.</li>
+                <li><strong><code>&lt;head&gt;</code></strong>: Contém informações sobre o documento, como o conjunto de caracteres e o título da página.</li>
+                <li><strong><code>&lt;body&gt;</code></strong>: Abriga o conteúdo visível da página, como textos, imagens e links.</li>
+            </ul>
+        </section>
+
+        <!-- Exemplo de Código HTML -->
+        <section id="exemplo">
+            <h2>Exemplo Simples de HTML</h2>
+            <p>Abaixo está um exemplo básico de um documento HTML:</p>
+            <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-br"&gt;
+    &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;title&gt;Página Exemplo&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Este é um título&lt;/h1&gt;
+        &lt;p&gt;Este é um parágrafo explicativo em HTML.&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+            </code></pre>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 HTML Simplificado</p>
+    </footer>
+</body>
+</html>
