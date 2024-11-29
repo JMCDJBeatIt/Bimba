@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onça-Pintada</title>
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #4b3d33;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #2e593e;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        header nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 800px;
+            margin: 100px auto 20px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #8b5e3c;
+            padding-bottom: 5px;
+            color: #2e593e;
+        }
+        footer {
+            background-color: #2e593e;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#sobre">Sobre a Onça</a>
+            <a href="#perigos">Dicas de Segurança</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="sobre" class="section">
+            <h2>Sobre a Onça-Pintada</h2>
+            <p>A onça-pintada (*Panthera onca*) é o maior felino das Américas e vive principalmente em florestas tropicais densas.
+                Ela é conhecida por sua força e habilidades de caça excepcionais. É um predador de topo e exerce um papel
+                crucial no equilíbrio ecológico.</p>
+        </section>
+
+        <section id="perigos" class="section">
+            <h2>O que Fazer ao Encontrar uma Onça</h2>
+            <p>Ao se deparar com uma onça, mantenha a calma. Evite movimentos bruscos e nunca corra. Faça-se parecer maior levantando
+                os braços lentamente e afaste-se devagar, mantendo contato visual. Caso a onça avance, grite e bata palmas para assustá-la.
+                </p>
+            <h3>O que NÃO Fazer:</h3>
+            <ul>
+                <li>Não se aproxime do animal.</li>
+                <li>Não se abaixe ou vire de costas.</li>
+                <li>Não entre em áreas de mata fechada sozinho.</li>
+            </ul>
+        </section>
+
+        <section id="curiosidades" class="section">
+            <h2>Curiosidades</h2>
+            <p>A onça-pintada não vê humanos como presas naturais, e ataques geralmente ocorrem em situações de defesa. Este animal
+                utiliza sua camuflagem para se esconder, sendo mais ativo durante o crepúsculo e à noite.</p>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2024 Informações sobre a Onça-Pintada. Todos os direitos reservados.
+    </footer>
+</body>
+</html>
